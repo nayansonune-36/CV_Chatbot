@@ -16,8 +16,9 @@ This repository contains `app.py`, an interactive AI chatbot designed to act as 
   **Real-Time Push Notifications:** Integrates with the **Pushover API** to instantly alert my phone whenever a visitor leaves their contact details or asks an unknown question.
 
   **Tech Stack:**
-  **Python**
-  **Gradio** (for the chat interface)
-  **OpenAI SDK / Gemini API** (for LLM orchestration and Tool Calling)
-  **PyPDF** (for document parsing)
-  **Pushover API** (for mobile push notifications)  
+  
+  # **Python**
+  # **Gradio** (for the chat interface)
+  # **OpenAI SDK / Gemini API** (for LLM orchestration and Tool Calling)
+  # **PyPDF** (for document parsing)
+  # **Pushover API** (for mobile push notifications)  
