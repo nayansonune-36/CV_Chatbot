@@ -25,9 +25,9 @@ This repository contains `app.py`, an interactive AI chatbot designed to act as 
 4.Notifications for unknown questions / new leads are pushed to my phone instantly via pushover
 
 # RUN LOCALLY
-git clone https://github.com/your-username/ai-career-chatbot.git
+'''git clone https://github.com/your-username/ai-career-chatbot.git
 cd ai-career-chatbot
-pip install -r requirements.txt
+pip install -r requirements.txt'''
 
 # Setup Pushover for Notifications
 Pushover is a nifty tool for sending Push Notifications to your phone.
