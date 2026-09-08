@@ -26,7 +26,7 @@ This repository contains `app.py`, an interactive AI chatbot designed to act as 
 
 # RUN LOCALLY
 ```
-git clone https://github.com/your-username/ai-career-chatbot.git
+git clone https://github.com/your-username/CV_Chatbot.git
 
 cd ai-career-chatbot
 
