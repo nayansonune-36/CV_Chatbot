@@ -24,6 +24,24 @@ This repository contains `app.py`, an interactive AI chatbot designed to act as 
 
 4.Notifications for unknown questions / new leads are pushed to my phone instantly via pushover
 
+# Setup Pushover for Notifications
+Pushover is a nifty tool for sending Push Notifications to your phone.
+
+It's super easy to set up and install!
+
+Simply visit https://pushover.net/ and click 'Login or Signup' on the top right to sign up for a free account, and create your API keys.
+
+Once you've signed up, on the home screen, click "Create an Application/API Token", and give it any name (like Agents) and click Create Application.
+
+Then add 2 lines to your `.env` file:
+
+PUSHOVER_USER=_put the key that's on the top right of your Pushover home screen and probably starts with a u_  
+PUSHOVER_TOKEN=_put the key when you click into your new application called Agents (or whatever) and probably starts with an a_
+
+Remember to save your `.env` file, and run `load_dotenv(override=True)` after saving, to set your environment variables.
+
+Finally, click "Add Phone, Tablet or Desktop" to install on your phone.
+
  # **Tech Stack:**
   
   **Python**
