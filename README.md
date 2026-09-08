@@ -15,16 +15,16 @@ This repository contains `app.py`, an interactive AI chatbot designed to act as 
   
   **Real-Time Push Notifications:** Integrates with the **Pushover API** to instantly alert my phone whenever a visitor leaves their contact details or asks an unknown question.
 
-#How it works
+# How it works
 1.My CV (PDF) is parsed at startup and injected into the system prompt as the model's only source of truth
 2.Every visitor message goes through an agent loop: the model can either reply directly or call one of the two tools above — the loop keeps running until the model produces a final text reply
 3.Tool calls are executed locally and their results are fed back to the model so it can continue the conversation naturally
 4.Notifications for unknown questions / new leads are pushed to my phone instantly via pushover
 
-  **Tech Stack:**
+ # **Tech Stack:**
   
-  # **Python**
-  # **Gradio** (for the chat interface)
-  # **OpenAI SDK / Gemini API** (for LLM orchestration and Tool Calling)
-  # **PyPDF** (for document parsing)
-  # **Pushover API** (for mobile push notifications)  
+  **Python**
+  **Gradio** (for the chat interface)
+  **OpenAI SDK / Gemini API** (for LLM orchestration and Tool Calling)
+  **PyPDF** (for document parsing)
+  **Pushover API** (for mobile push notifications)  
