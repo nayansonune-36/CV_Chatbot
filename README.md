@@ -44,8 +44,8 @@ Finally, click "Add Phone, Tablet or Desktop" to install on your phone.
 
  # **Tech Stack:**
   
-  **Python**
-  **Gradio** (for the chat interface)
-  **OpenAI SDK / Gemini API** (for LLM orchestration and Tool Calling)
-  **PyPDF** (for document parsing)
-  **Pushover API** (for mobile push notifications)  
+**Python**
+**Gradio** (for the chat interface)
+**OpenAI SDK / Gemini API** (for LLM orchestration and Tool Calling)
+**PyPDF** (for document parsing)
+**Pushover API** (for mobile push notifications)  
