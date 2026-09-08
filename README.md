@@ -28,7 +28,7 @@ This repository contains `app.py`, an interactive AI chatbot designed to act as 
 ```
 git clone https://github.com/your-username/CV_Chatbot.git
 
-cd ai-career-chatbot
+cd CV_Chatbot
 
 pip install -r requirements.txt
 ```
